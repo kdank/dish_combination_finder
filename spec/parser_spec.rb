@@ -21,8 +21,10 @@ describe DishCombinationFinder::Parser do
       end
     end
 
-    context 'when txt is invalid' do
-
+    context 'when txt file is not present or invalid' do
+      it 'raises an error' do
+        expect{parser.parse_txt(nil)}.to raise_error(NameError)
+      end
     end
   end
 end
