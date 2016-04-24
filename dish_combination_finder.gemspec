@@ -9,9 +9,9 @@ Gem::Specification.new do |spec|
   spec.authors       = ["kdank"]
   spec.email         = ["danknerj@gmail.com"]
 
-  spec.summary       = %q{TODO: Write a short summary, because Rubygems requires one.}
-  spec.description   = %q{TODO: Write a longer description or delete this line.}
-  spec.homepage      = "TODO: Put your gem's website or public repo URL here."
+  spec.summary       = %q{A gemified solution to https://xkcd.com/287/}
+  spec.description   = %q{Input a text file to know if there is a possible combination of dishes that sum to a specific price}
+  spec.homepage      = "https://github.com/kdank/dish_combination_finder"
   spec.license       = "MIT"
 
   spec.files         = `git ls-files -z`.split("\x0").reject { |f| f.match(%r{^(test|spec|features)/}) }
